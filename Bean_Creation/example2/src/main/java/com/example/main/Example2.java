@@ -13,5 +13,6 @@ public class Example2 {
         System.out.println(veh1.getName()); // Uses default value from PostConstruct
         veh1.setName("Audi 8");
         System.out.println(veh1.getName());
+        context.close();
     }
 }
