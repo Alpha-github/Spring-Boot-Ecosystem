@@ -4,6 +4,8 @@ import com.example.beans.Vehicle;
 import com.example.config.ProjectConfig;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ClassPathBeanDefinitionScanner;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Random;
 import java.util.function.Supplier;
@@ -57,5 +59,10 @@ public class Example3 {
         if(null != audiVehicle){
             System.out.println(audiVehicle.getName());
         }
+
+
+        var context2 = new ClassPathXmlApplicationContext("beans.xml");
+        Vehicle vehicle = context2.getBean(Vehicle.class);
+        System.out.println(vehicle.getName());
     }
 }
