@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Vehicle {
 
-    public Vehicle(){ // constructor
-        System.out.println("Vehicle bean has been created!");
-    }
+//    public Vehicle(){ // constructor
+//        System.out.println("Vehicle bean has been created!");
+//    }
     private String name = "Honda";
 
     public String getName() {

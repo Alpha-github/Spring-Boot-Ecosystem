@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Person {
-    public Person(){
-        System.out.println("Person bean has been created!");
-    }
+//    public Person(){ //Constructor
+//        System.out.println("Person bean has been created!");
+//    }
 
     private String name  = "John";
 
@@ -17,7 +17,7 @@ public class Person {
     by Spring Dependency Injection mechanism
     * */
 
-    @Autowired(required = false) //It makes the existence of the vehicle bean optional
+//    @Autowired(required = false) //It makes the existence of the vehicle bean optional
     private Vehicle vehicle;
 
     public String getName() {
@@ -26,9 +26,12 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+
     public Vehicle getVehicle() {
         return vehicle;
     }
+
+    @Autowired
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
