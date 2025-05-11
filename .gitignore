@@ -1,5 +1,6 @@
 *.pdf
 *.java~
+*.xml~
 
 # Created by https://www.toptal.com/developers/gitignore/api/maven,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=maven,java
