@@ -78,22 +78,10 @@ git clone https://github.com/Alpha-github/Spring-Boot-Ecosystem.git
 
 ---
 
-## 📚 Resources
-
-- 📄 [Master Spring Framework, Spring Boot, REST, JPA, Hibernate – EazyBytes](https://github.com/Alpha-github/Spring-Boot-Ecosystem/blob/master/Master%2BSpring%2Bframework%2CSpring%2BBoot%2CREST%2BJPA%2BHibernate_eazybytes.pdf)
-
----
-
 ## 🤝 Contributions
 
 This repo is part of my learning journey, but suggestions, corrections, or contributions are very welcome!  
 Feel free to fork and open a pull request. Let's learn together. 🌱
-
----
-
-## 📌 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
