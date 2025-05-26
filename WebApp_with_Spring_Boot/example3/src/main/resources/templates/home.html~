@@ -350,6 +350,7 @@ Author URL: http://w3layouts.com
     <!-- footer -->
     <div th:replace="footer :: footer"></div>
 
+
     <!-- Js scripts -->
     <!-- move top -->
     <button onclick="topFunction()" id="movetop" title="Go to top">
