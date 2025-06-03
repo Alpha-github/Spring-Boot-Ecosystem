@@ -2,6 +2,7 @@ package com.ankithm.school.controller;
 
 import com.ankithm.school.model.Contact;
 import com.ankithm.school.service.ContactService;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,11 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
+@Slf4j
 @Controller
 public class ContactController {
-
-    private static Logger log = LoggerFactory.getLogger(ContactController.class);
-
     private final ContactService contactService;
 
     @Autowired
