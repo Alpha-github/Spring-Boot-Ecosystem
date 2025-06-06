@@ -25,7 +25,7 @@ More coming as I learn! 🛤️
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure:
 
 ```
 Spring-Boot-Ecosystem/
