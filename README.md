@@ -13,6 +13,7 @@ Topics include (but not limited to):
 
 - 🌀 Basics of Spring Boot (Setup, Structure, Annotations)
 - 🔄 REST APIs with Spring Web
+- Spring template engine - Thymeleaf
 - 🛡️ Spring Security (understanding security filters and roles)
 - 💾 Spring Data JPA
 - 🧵 Asynchronous operations
